@@ -33,7 +33,7 @@ export function gameStart(scene, config, startButton, menu, background) {
       fill: "#ff0000",
       fontWeight: "bold",
       fontFamily: "Arial, sans-serif",
-      backgroundColor: "#ffffff",
+      backgroundColor: "#0000007a",
       padding: {
         x: 10,
         y: 5,

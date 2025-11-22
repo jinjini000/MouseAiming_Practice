@@ -21,10 +21,10 @@ export function createTimer(scene, config) {
   timerText = scene.add
     .text(config.width - 16, 16, "Time: " + formatTime(timeLeft), {
       fontSize: "32px",
-      fill: "#0000ff",
+      fill: "#0000ffff",
       fontWeight: "bold",
       fontFamily: "Arial, sans-serif",
-      backgroundColor: "#ffffff",
+      backgroundColor: "#0000007a",
       padding: { x: 10, y: 5 },
     })
     .setOrigin(1, 0)
